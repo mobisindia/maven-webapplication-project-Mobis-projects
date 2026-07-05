@@ -93,21 +93,21 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://172.31.40.189:8081/repository/flipkart-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://13.234.75.227:8081/repository/jio-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+	 <distributionManagement>
+
+            <repository>
+              <id>nexus</id>
+              <name>Mobis_Release</name>
+              <url>http://3.85.143.146:8081/repository/Mobis_relase/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>Mobis_snapshort</name>
+              <url>http://3.85.143.146:8081/repository/maven-snapshots/</url>
+            </snapshotRepository>
+
+        </distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
